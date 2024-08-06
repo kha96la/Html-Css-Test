@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    background-image:
+    linear-gradient(to right, #01022d92 30%, #0000007a)
+     ,url(./img/back_gr.jpg);
+    background-size: cover;
+    width: 90%;
+    height: 640px;
+}
+
+.container:hover {
+    background-image:
+    linear-gradient(to right, #01022d92 30%, transparent)
+     ,url(./img/back_gr.jpg);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+ .logo .logo_l{
+    font-size: 50px;
+    position: relative;
+}
+
+.logo .logo_l::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(80, 156, 138);
+    top: 61%;
+    left: 63%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.logo p {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+ul {
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a {
+    text-transform: uppercase;
+}
+
+ul a:hover {
+    border-bottom: 2px solid white;
+}
+
+ul a.btn:hover {
+    border-bottom: none;
+}
+
+ul button {
+    background-color:  transparent;
+    color: white;
+    padding: 10px;
+    width: 130px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-top: -7px;
+
+}
+
+ul button:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul a span.material-symbols-outlined:hover {
+    font-size: 35px;
+}
+
+ul .green {
+    background-color: rgb(80, 156, 138);
+    border: none;
+}
+
+ul .white {
+    border-color: white;
+}
+
+.content {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    padding-top: 100px;
+}
+
+.content .head {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+
+.content p {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+
+.content button {
+    background-color:  transparent;
+    color: white;
+    padding: 12px;
+    margin: 5px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    width: 140px;
+
+}
+
+.content button:hover {
+    cursor: pointer;
+    box-shadow: 4px 4px 4px 0px gray;
+}
+
+.content .button .green {
+    background-color: rgb(80, 156, 138);
+    border: none;
+}
+
+.content .button .white {
+    border-color: white;
+}
+
+.down {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(80, 156, 138);
+    margin: 130px auto;
+}
+
+.down .material-symbols-outlined {
+    color: white;
+    margin-top: 4px;
+    padding-left: 3px;
+}
+
+.down:hover {
+    background-color: white;
+}
+
+.down .material-symbols-outlined:hover {
+    color: rgb(80, 156, 138);
+    cursor: pointer;
+}
+
+@media (max-width: 950px) {
+    
+}
